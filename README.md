@@ -1,4 +1,6 @@
 # nginx-rtmp-auth
+- original repo [here](https://github.com/IRLToolkit/nginx-rtmp-auth)
+  
 A Python script that allows you to authenticate RTMP publishers in nginx-rtmp-module.
 
 ## Usage:
@@ -16,12 +18,3 @@ bind_to_port = 88 # Port to bind to
 authentication_file = authentication.json
 log_to_file = auth.log # File to log to - basically an access.log
 ```
-
-## Getting Help:
-If you need help, just open a new issue and describe with as much detail as possible the issue you are having. We will get back to you as soon as possible.
-
-## IRLTookit Links
-
-- https://twitter.com/IRLToolkit
-- https://irltoolkit.com/discord
-- https://irltoolkit.com
